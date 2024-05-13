@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+       "gpio_mock.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        gpio_interface
+        singleton
+    PRIV_REQUIRES
+        driver
+)

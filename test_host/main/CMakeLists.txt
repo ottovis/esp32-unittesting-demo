@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+    INCLUDE_DIRS
+        "."
+    PRIV_REQUIRES
+        unity
+        gpio_mock
+        gpio_interface
+        gpio_hardware
+        singleton
+        status_led
+    WHOLE_ARCHIVE
+)

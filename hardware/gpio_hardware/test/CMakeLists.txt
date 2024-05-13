@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "gpio_hardware_test.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        unity
+        gpio_hardware
+        cmock
+        driver
+)

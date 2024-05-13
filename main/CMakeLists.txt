@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+    INCLUDE_DIRS
+        "."
+    PRIV_REQUIRES
+        gpio_hardware
+        gpio_interface
+        singleton
+        status_led
+)
